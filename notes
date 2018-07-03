@@ -1,0 +1,10 @@
+Reference -> https://towardsdatascience.com/deploy-tensorflow-models-9813b5a705d5
+
+
+1) We saw how to deploy the tensoflow model using tf serving and docker image of the same.
+
+2) We used how we can leverage gRPC( prediction client library) to request the prediction API from client
+and which returns the response from served model in the docker container at 9000. 
+Just model name, model version and tensor input/output req data is needed.
+
+
